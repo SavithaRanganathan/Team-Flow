@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @goal.name %>
+</p>
+
+<p>
+  <strong>Pageview:</strong>
+  <%= @goal.pageview %>
+</p>
+
+<p>
+  <strong>Newuser:</strong>
+  <%= @goal.newuser %>
+</p>
+
+<p>
+  <strong>Bouncerate:</strong>
+  <%= @goal.bouncerate %>
+</p>
+
+<p>
+  <strong>Achieved pageview:</strong>
+  <%= @goal.achieved_pageview %>
+</p>
+
+<p>
+  <strong>Achieved newuser:</strong>
+  <%= @goal.achieved_newuser %>
+</p>
+
+<p>
+  <strong>Achieved bouncerate:</strong>
+  <%= @goal.achieved_bouncerate %>
+</p>
+
+<p>
+  <strong>Project:</strong>
+  <%= @goal.project %>
+</p>
+
+<p>
+  <strong>Requirement:</strong>
+  <%= @goal.requirement %>
+</p>
+
+<%= link_to 'Edit', edit_goal_path(@goal) %> |
+<%= link_to 'Back', goals_path %>

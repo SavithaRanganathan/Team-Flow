@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  pageview: 1
+  newuser: 1
+  bouncerate: MyString
+  achieved_pageview: MyString
+  achieved_newuser: MyString
+  achieved_bouncerate: MyString
+  project_id: 
+  requirement_id: 
+
+two:
+  name: MyString
+  pageview: 1
+  newuser: 1
+  bouncerate: MyString
+  achieved_pageview: MyString
+  achieved_newuser: MyString
+  achieved_bouncerate: MyString
+  project_id: 
+  requirement_id: 

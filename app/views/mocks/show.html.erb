@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @mock.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @mock.description %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @mock.url %>
+</p>
+
+<p>
+  <strong>Project:</strong>
+  <%= @mock.project %>
+</p>
+
+<p>
+  <strong>Requirement:</strong>
+  <%= @mock.requirement %>
+</p>
+
+<%= link_to 'Edit', edit_mock_path(@mock) %> |
+<%= link_to 'Back', mocks_path %>
